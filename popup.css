@@ -1,0 +1,53 @@
+* {
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-o-user-select: none; 
+	user-select: none; 
+}
+body {
+	background-color: #212144;
+}
+
+#main {
+	
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+#bar {
+	width: 300px;
+	height: 25px;
+	font-size: 21px;
+	text-align: right;
+	border: 0px;
+	border-radius: 0px;
+}
+
+#numpad {
+	margin-top: 5px;
+	width: 170px;
+}
+
+#utility {
+	position: absolute;
+	margin-left: 135px;
+	width: 30px;
+}
+
+.element {
+	display: block;
+	float: left;
+	width: 35px;
+	height: 35px;
+	margin: 10px 10px 0px 0px;
+	padding-top: 0px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #fff;
+	border-radius: 8px;
+	cursor: default;
+}
